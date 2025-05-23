@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Florida Child Support Guidelines Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that calculates child support based on the Florida Child Support Guidelines, as outlined in Florida Statute 61.30.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This calculator aims to provide an easy-to-use tool for estimating child support obligations in Florida. It takes into account key financial factors from both parents, such as income, deductions, childcare costs, and health insurance expenses, to provide a preliminary calculation.
 
-### `npm start`
+**Please Note:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* This calculator is intended for informational purposes only.
+* The results are estimates and should not be considered a substitute for legal advice.
+* Actual child support orders are determined by the court and may vary based on specific circumstances.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* Accurate calculations based on the Florida Child Support Guidelines (Florida Statute 61.30).
+* Input fields for all relevant financial information for both parents.
+* Clear display of calculated values, mirroring the structure of the official worksheet.
+* Handles shared parenting calculations, adjusting for overnight stays.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+* React
+* Tailwind CSS (for styling)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone <YOUR_REPOSITORY_URL>
+    ```
 
-### `npm run eject`
+    (Replace `<YOUR_REPOSITORY_URL>` with the actual URL of your GitHub repository.)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  **Navigate to the project directory:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd florida-child-support-calculator
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    (Or whatever your project's directory name is)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3.  **Install dependencies:**
 
-## Learn More
+    ```bash
+    npm install
+    # OR
+    yarn install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  **Run the application in development mode:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    npm start
+    # OR
+    yarn start
+    ```
 
-### Code Splitting
+    The calculator will open in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Important Considerations
 
-### Analyzing the Bundle Size
+* **Basic Monthly Obligation Chart:** The calculator includes a representation of the child support guidelines chart. Ensure you have the most up-to-date version of this chart for accurate calculations. Refer to the official Florida Statute 61.30 for the latest guidelines.
+* **Accuracy:** While this calculator strives for accuracy, it's crucial to consult with a legal professional for advice tailored to your specific situation.
+* **Limitations:** This calculator is designed to follow the standard guidelines. Deviations from the guidelines, which a court may order, are not handled by this tool.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+(Optional:  If you want others to contribute)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! If you find a bug or have suggestions for improvement, please open an issue or submit a pull request.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+(Optional: Add a license, like MIT)
 
-### Deployment
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgements
 
-### `npm run build` fails to minify
+* This calculator is based on the Florida Child Support Guidelines outlined in Florida Statute 61.30 ([https://www.flsenate.gov/Laws/Statutes/2018/61.30](https://www.flsenate.gov/Laws/Statutes/2018/61.30)).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+
+(Optional: Your contact information)
+
+---
+
+**Explanation of Key Sections:**
+
+* **\# Title and Short Description:** Clearly states what the project is.
+* **Overview:** Provides more context and crucial disclaimers.
+* **Features:** Highlights the main functionalities.
+* **Technologies Used:** Lists the core technologies.
+* **Installation:** Gives clear, step-by-step instructions on how to run the project locally.
+* **Important Considerations:** Reinforces the limitations and need for professional legal advice.
+* **Contributing (Optional):** Encourages community involvement.
+* **License (Optional but Recommended):** Specifies how others can use your code.
+* **Acknowledgements:** Properly cites the source of the guidelines.
+* **Contact (Optional):** Allows people to reach out to you.
+
+Remember to replace the placeholder text (like `<YOUR_REPOSITORY_URL>`) with your actual information. You can also customize this further to suit your needs.
