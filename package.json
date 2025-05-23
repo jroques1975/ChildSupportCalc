@@ -10,7 +10,10 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "tailwindcss": "^4.1.7",  
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.21"
   },
   "scripts": {
     "start": "react-scripts start",

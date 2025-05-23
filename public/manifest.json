@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Child Support Calc",
+  "name": "Florida Child Support Calculator Worksheet",
   "icons": [
     {
       "src": "favicon.ico",
